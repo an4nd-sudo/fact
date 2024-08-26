@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header('factorial')
 
-x=st.number_input('enter a number')
+x=st.number_input('enter a number',value=0)
 
 btn=st.button('cal fact')
 
